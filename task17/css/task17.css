@@ -1,0 +1,12 @@
+fieldset{
+	width:675px; 
+	margin:20px;
+}
+#aqi-chart-wrap{
+	width:708px; 
+	height:325px; 
+	border:solid 1px #B3B3DC; 
+	position:relative; 
+	top:40px; 
+	left:20px;
+}

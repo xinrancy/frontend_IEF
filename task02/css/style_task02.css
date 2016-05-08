@@ -1,0 +1,101 @@
+.top{
+	height: 70px;
+	line-height: 70px;
+	background: #333;
+}
+.main{
+	margin:0 auto;
+	background:#dedede;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.foot{
+	height: 60px;
+	line-height: 60px;
+	background: #333;
+	margin:0 auto;
+	text-align: center;
+}
+
+.top_left{
+	float: left;
+	margin-left: 35px;
+	margin-top: 12px; 
+	width: 120px;
+}
+.top_left img{
+	width: 100%;
+	padding: 0;
+}
+
+.top_right{
+	float: right;
+}
+.top ul{
+	margin: 0;
+	list-style-type:none;
+}
+.top ul li{
+	display: inline;
+	font-size: 10px;
+}
+.top ul li a{
+	color: #999;
+	margin: 5px;
+	text-decoration:none;
+}
+.top ul li a:link {
+
+} /* 未被访问的链接 */
+.top ul li a:visited {
+	
+} /* 已被访问的链接 */
+.top ul li a:hover {
+	color: white;
+} /* 鼠标指针移动到链接上 */
+.top ul li a:active {
+	color: white;
+} /* 正在被点击的链接 */
+
+
+.contain{
+	margin: 0 20px 20px 20px;
+	background: #eee;
+}
+.contain p{
+	text-indent: 2em;
+	line-height: 1.7em;
+}
+
+.wrap{
+	padding: 5px 20px;
+}
+.wrap ul{
+	list-style-type:none;
+	padding: 0 0 0 20px;
+}
+
+.contain .wrap h3:first-child{
+	font-weight: ;/** 未完成 **/
+}
+
+.imgWrap{
+	margin: 15px;
+	padding: 5px;
+  	border: 1px solid #dedede;
+  	height: auto;
+  	width: 150px;
+  	text-align: center;
+}
+.imgWrap h5{
+	margin: 5px;
+}
+
+.conWrapTable{
+	margin: 5px 0 20px;
+}
+
+.side{
+	margin: 0 20px 0 20px;
+	background: #eee;
+}

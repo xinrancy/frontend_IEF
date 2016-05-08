@@ -1,0 +1,4 @@
+1、关于闭包的使用：
+document.getElementById("city-select").onchange = function(){citySelectChange()};
+2、注意函数带括号和不带括号的区别（以下代码与1中作用相同）：
+xx.onchange = citySelectChange;
